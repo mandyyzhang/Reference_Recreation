@@ -1,0 +1,124 @@
+body, html {
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Roboto'
+}
+
+.mainContainer{
+  background-color: #231f20;
+  width: 550px;
+  height:  750px;
+  position: absolute;
+  top: 0%;
+  left: 0%;
+}
+/*==========================================================================*/
+.ff{
+  position: absolute;
+    font-weight: 400;
+    font-size: 46em;
+    margin: 0px;
+    padding: 0px;
+}
+
+/*---------------------------------------------------------*/
+#white{
+  color: white;
+
+  margin: 0px;
+  padding: 0px;
+
+  height: 500px;
+
+  position: absolute;
+  top: 27%;
+  left: 0%;
+}
+/*---------------------------------------------------------*/
+#orange{
+  color: #f1592a;
+
+  margin: 0px;
+  padding: 0px;
+
+  height: 700px;
+
+  transform:rotate(180deg);
+  position: relative;
+  left: 105%;
+}
+
+/*==========================================================================*/
+.swiss{
+  color: white;
+  font-size: 2.4em;
+
+  transform: rotate(-90deg);
+  position: absolute;
+  top: 46%;
+  left: -17px;
+}
+/*==========================================================================*/
+.AdrianFRUTIGER{
+  color: #f1592a;
+  font-size: 1.7em;
+
+  transform: rotate(-90deg);
+  position: absolute;
+  top: 21%;
+  left: 26%
+}
+/*==========================================================================*/
+.Zurich{
+  color: white;
+  font-size: 1.5em;
+
+  transform: rotate(-90deg);
+  position: absolute;
+  top: 32%;
+  left: 84%;
+
+}
+
+
+/*==========================================================================*/
+.text{
+  color: white;
+  font-size: 0.03em;
+  font-weight: 300;
+}
+
+/*---------------------------------------------------------*/
+.p1{
+  display: flex;
+  flex-direction: row;
+
+  height: 60px;
+  width: 170px;
+
+  position: absolute;
+  top: 54%;
+  left: 33%;
+}
+
+.p1 p + p{
+  margin-left: 45px;
+}
+
+/*---------------------------------------------------------*/
+.p2{
+  display: flex;
+  flex-direction: column;
+
+  height: 60px;
+  width: 70px;
+
+
+  position: absolute;
+  top: 3%;
+  left: 52%;
+}
+
+.p2 p + p{
+  padding-top: 10px;
+}
